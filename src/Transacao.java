@@ -4,6 +4,7 @@ import java.time.format.DateTimeFormatter;
 public class Transacao {
     private String tipo;
     private double valor;
+    private double quantidade;
     private LocalDateTime dataHora;
 
     private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
